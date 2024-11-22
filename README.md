@@ -1,71 +1,99 @@
-# Getting Started with Create React App
+# Internship Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An **Internship Management App** simplifies and streamlines internship processes for students, companies, and administrators. Below is an overview of the app's features and functionalities.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Table of Contents
+- [Features](#features)
+  - [For Students](#for-students)
+  - [For Companies/Employers](#for-companiesemployers)
+  - [For Administrators](#for-administrators)
+  - [General Features](#general-features)
+- [Installation](#installation)
+- [Tech Stack](#tech-stack)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### For Students
+- **Profile Creation**: Add personal details, educational qualifications, skills, and portfolio links (e.g., GitHub, LinkedIn).
+- **Internship Search and Application**: Filter internships based on domain, location, stipend, duration, or skills required, and apply directly.
+- **Track Applications**: Monitor the status of submitted applications (e.g., Pending, Accepted, Rejected).
+- **Notifications**: Receive updates about application status, interview schedules, or new opportunities.
+- **Resume Builder**: Create resumes using pre-designed templates by filling in profile information.
+- **Progress Tracker**: Track ongoing internships, including task completion, deadlines, and feedback from mentors.
+- **Certificate Repository**: Upload and store internship certificates in one place.
 
-### `npm test`
+### For Companies/Employers
+- **Post Internships**: Add internship opportunities with details like job description, requirements, stipend, and duration.
+- **Applicant Management**: View and filter applicants based on skills, qualifications, and more.
+- **Shortlist or Reject Candidates**: Manage candidates directly within the app.
+- **Interview Scheduling**: Set up interviews and notify candidates.
+- **Intern Progress Monitoring**: Track interns' performance and assign tasks or milestones.
+- **Generate Certificates**: Create and issue internship completion certificates through the app.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### For Administrators
+- **User Management**: Manage student and employer accounts, approve or suspend accounts as needed.
+- **Analytics and Reports**: View data on applications, placements, and user activity for insights.
+- **Feedback System**: Collect feedback from students and employers to improve the platform.
+- **Compliance Management**: Ensure internship opportunities comply with relevant guidelines or policies.
+- **Notification Management**: Send app-wide announcements or updates.
 
-### `npm run build`
+### General Features
+- **Role-Based Dashboards**: Separate views for students, companies, and administrators.
+- **Advanced Search and Filters**: Smart filters for finding specific opportunities or candidates.
+- **Chat or Messaging System**: Enable direct communication between students and employers.
+- **Calendar Integration**: Sync interview schedules and deadlines with Google Calendar or other platforms.
+- **Dark Mode**: Offer a dark mode option for better usability.
+- **Mobile App Support**: A responsive mobile-friendly interface or dedicated mobile apps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SnowFlowerr/Internship_Management_Platform-Frontend.git
+2. Navigate to the project directory:
+    ```bash
+    cd internship-management-app
+3. Install dependencies:
+    ```bash
+    npm install
+4. Start the development server:
+    ```bash
+    npm start
+## Tech Stack
+- Frontend: React.js
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Authentication: JSON Web Tokens (JWT)
+- Other Tools: Axios, Redux
+## Usage
+- Register as a student, company, or administrator.
+- Use the respective dashboard to perform tasks:
+- Students: Build profiles, search/apply for internships, track progress.
+- Companies: Post internships, manage applicants, issue certificates.
+- Administrators: Oversee platform operations, manage users, and generate reports.
+  
+## License
+- This project is licensed under the MIT License.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
+Contributions are welcome! Follow these steps to contribute:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Internship_Management_Platform-Frontend
+1. Fork the repository.
+2. Create a feature branch:
+    ```bash
+    git checkout -b feature-name
+2. Commit your changes:
+    ```bash
+    git commit -m "Add new feature"
+4. Push to your branch:
+    ```bash
+    git push origin feature-name
+5. Open a pull request.
