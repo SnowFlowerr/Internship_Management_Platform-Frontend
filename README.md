@@ -84,7 +84,7 @@ An **Internship Management App** simplifies and streamlines internship processes
 - This project is licensed under the MIT License.
 
 ## Contributing
-Contributions are welcome! Follow these steps to contribute:
+- Contributions are welcome! Follow these steps to contribute:
 
 1. Fork the repository.
 2. Create a feature branch:
