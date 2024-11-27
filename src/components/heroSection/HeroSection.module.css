@@ -43,7 +43,7 @@
 .heroDescription {
   font-size: 1.5rem; /* Description font size */
   margin-bottom: 2rem; /* Space below description */
-  max-width: 600px; /* Max width for readability */
+  max-width: 800px; /* Max width for readability */
   line-height: 1.5; /* Line height for better readability */
 }
 

@@ -80,7 +80,7 @@ export default function Home() {
                     </div>
                 )}
             </pre>
-            {JSON.stringify(sign)}
+            {/* {JSON.stringify(sign)} */}
 
 
             <div>
